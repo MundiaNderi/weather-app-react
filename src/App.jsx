@@ -7,7 +7,7 @@ function App() {
     <>
     <div className='App'>
       <div className='container'>
-        <Weather /> 
+        <Weather defaultCity="Nairobi" /> 
         <footer>
           This project was coded by {" "}
           <a href=" https://www.linkedin.com/in/serah-nderi/" target='_blank'>Serah Nderi</a> and is {" "}
