@@ -34,7 +34,8 @@
     font-weight: 400;
 }
 
-.weather img {
+.weather canvas {
+    margin-top: 5px;
     margin-right: 10px;
     height: 64px;
     width: 64px;
