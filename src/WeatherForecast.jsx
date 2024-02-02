@@ -16,7 +16,7 @@ export default function WeatherForecast(props) {
 
     // useEffect
     // if the coordinates change
-    // set loeaded to false
+    // set loaded to false
 
     useEffect(() => {
         setLoaded(false);
@@ -34,6 +34,8 @@ export default function WeatherForecast(props) {
                                 <WeatherForecastDay data={dailyForecast} />                 
                             </div>
                         );  
+                        } else {
+                            return null;
                         }
                     })}
                 </div>
